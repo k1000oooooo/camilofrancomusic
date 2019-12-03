@@ -4,11 +4,25 @@ nav {
 
 body{
   background-color: black;
+  
 }
 
+header nav.navbar {
+  background-color: black;
+}
+
+a.camilo {
+  /* padding-left: 20%; */
+  color: aliceblue;
+
+}
 
 article {
   margin-top: 25px;
+}
+
+a.navbar-brand{
+
 }
 
 .about {
@@ -23,10 +37,17 @@ article {
 }
 
 .navbar-expand-lg .navbar-collapse {
-  background-color: #05ff05;
-  opacity: 70%;
   border-radius: 9px;
-  padding-left: 46%;
+  /* margin-right: 30%; */
+
+}
+
+ul li.nav-item a.nav-link {
+  color: aliceblue;
+}
+
+div ul.navbar-nav {
+  /* margin-right: 70%; */
 }
 
 #videos{
@@ -66,11 +87,10 @@ footer {
   margin-left: 75%;
 }
 
-img.perfil{
-  margin-top: 45px;
-  width: 15%;
-  border-radius: 350px;
-}
+/* img.perfil{
+  /* margin-top: 45px; */
+  border-radius: 450px;
+} */
 
 
 a.tituloLink{
@@ -92,10 +112,10 @@ a.tituloLink img{
   
 }
 
-img.perfil2{
-  margin-top: 45px;
-  margin-bottom: 45px;
-  width: 15%;
+.perfil2{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 5%;
   border-radius: 350px;
 } 
 
